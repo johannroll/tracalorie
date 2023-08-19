@@ -444,7 +444,11 @@ class CalorieTracker {
         const totalCals = JSON.parse(localStorage.getItem('calorie-total'));
         const progress  = (totalCals / calLimit) * 100;
         const width = Math.min(progress, 100);
-        progressBarEl.style.width = `${width}%`; 
+        if (width < 0) {
+            progressBarEl.style.width = `0%`; 
+        } else {
+            progressBarEl.style.width = `${width}%`; 
+        }
     }
 
     _render() {

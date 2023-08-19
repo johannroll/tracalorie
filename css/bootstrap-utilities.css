@@ -251,6 +251,7 @@
     bottom: 0;
     z-index: 1020;
   }
+
 }
 @media (min-width: 768px) {
   .sticky-md-top {
@@ -1739,6 +1740,7 @@
 }
 
 @media (min-width: 576px) {
+  
   .float-sm-start {
     float: left !important;
   }

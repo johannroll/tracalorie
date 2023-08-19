@@ -29,8 +29,12 @@ body {
   font-weight: 800;
   /* border-left: 3px solid salmon; */
   padding-left: 6px;
-  
-  
+}
+
+@media screen and (width < 550px) {
+  #app-title {
+    font-size: 3rem !important;
+  }
 }
 
 .app-title::before {
@@ -101,14 +105,14 @@ body {
 #btn-add-meal {
   border: none;
   outline: none;
-  border-radius: 2px;
+  border-radius: 3px;
   background: linear-gradient(rgb(63, 133, 126), rgb(98, 156, 150));
 }
 
 #btn-add-workout {
   border: none;
   outline: none;
-  border-radius: 2px;
+  border-radius: 3px;
   background: linear-gradient(rgb(215, 108, 97), rgb(250, 157, 114));
 }
 

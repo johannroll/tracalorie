@@ -136,3 +136,7 @@ body {
 #modal {
   border-radius: 3px;
 }
+
+.item-lists {
+  padding-bottom: 4rem;
+}
